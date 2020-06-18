@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<ProcGuardConfiguration>
+
+    <!-- 通过web来对procguard进行远程管理所需要的参数. -->
+    <webAdminParams>
+        <param name="httpd.name" value="GTCloud-MapServer Launcher and Guard" />
+        <param name="httpd.listenAddress" value="0.0.0.0:48569" />
+        <param name="httpd.threadPoolSize" value="1" />
+
+        <!-- 欢迎页面. -->
+        <param name="httpd.welcomePage" value="/pages/index.html" />
+        <param name="httpd.docRoot" value="${exeEtcDir}/resbundles/${currentResBundleId}" />
+    </webAdminParams>
+
+    <!-- 需要传递给子进程的共性环境变量(Optional). -->
+    <childrenEnvVars>
+        <add name="MY_NAME" value="Test" />
+        <add name="win.PATH" value="${PATH};${runDir};${JAVA_HOME}\jre\bin\server" />
+        <add name="linux.PATH" value="${PATH}:${runDir}:${JAVA_HOME}/jre/bin/server" />
+        <add name="linux.LD_LIBRARY_PATH" value="${LD_LIBRARY_PATH}:${runDir}" />
+    </childrenEnvVars>
+
+</ProcGuardConfiguration>

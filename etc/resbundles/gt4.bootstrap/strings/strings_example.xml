@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gbk"?>
+
+<messages>
+    <msg name="M_COMMON_OpenFileFailed" code="1000" value="打开文件%s失败: %s" />
+    <msg name="M_COMMON_LongMessage" code="1001">
+        <![CDATA[打开文件%s失败: %s]]>
+    </msg>
+</messages>

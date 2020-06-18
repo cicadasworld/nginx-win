@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gbk"?>
+
+<messages>
+    <!--ConsoleCmdManager-->
+    <msg name="ccm.help_msg" value="列印帮助" />
+    <msg name="ccm.help_usage" value="用法: help [all | 命令]" />
+    <msg name="ccm.exit_msg" value="退出命令处理器" />
+    <msg name="ccm.exit_usage" value="用法: exit" />
+    <msg name="ccm.quit_msg" value="退出命令处理器" />
+    <msg name="ccm.quit_usage" value="用法: quit" />
+    <msg name="ccm.repeat_msg" value="重复上次命令" />
+    <msg name="ccm.repeat_usage" value="用法: ." />
+    <msg name="ccm.shell_msg" value="执行shell命令" />
+    <msg name="ccm.shell_usage" value="用法: !shell命令, 如!ls" />
+    <msg name="ccm.invalid_cmd" value="命令无效, 请使用'help'获取命令用法" />
+    <msg name="ccm.unrecognizable_cmd" value="不支持的命令'%s'." />
+</messages>

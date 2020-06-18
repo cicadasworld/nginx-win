@@ -1,0 +1,117 @@
+2019/09/11 10:50:11 [notice] 6356#8844: signal process started
+2019/09/11 10:55:24 [notice] 8384#8708: signal process started
+2019/09/11 11:14:25 [notice] 10004#9388: signal process started
+2019/09/11 11:16:11 [notice] 8344#5636: signal process started
+2019/09/11 11:22:50 [notice] 8428#9160: signal process started
+2019/09/11 11:28:02 [notice] 9592#8260: signal process started
+2019/09/11 11:39:02 [notice] 8272#5536: signal process started
+2019/09/11 11:40:47 [notice] 2760#9384: signal process started
+2019/09/11 11:40:47 [error] 4504#7276: *15 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /maps/gts/tms/v1/md?dem=1 HTTP/1.1", upstream: "http://127.0.0.1:48108/maps/gts/tms/v1/md?dem=1", host: "localhost", referrer: "http://localhost/?t=czK%2FuAQAi0toHm0BAACI7%2FACAAAAAAEAAAABAAB%2F"
+2019/09/11 11:40:52 [error] 4504#7276: *15 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /maps/gts/tms/v1/md?dem=1 HTTP/1.1", upstream: "http://127.0.0.1:48108/maps/gts/tms/v1/md?dem=1", host: "localhost", referrer: "http://localhost/?t=czK%2FuAQAi0toHm0BAACI7%2FACAAAAAAEAAAABAAB%2F"
+2019/09/11 11:48:10 [notice] 9348#9456: signal process started
+2019/09/11 14:16:18 [notice] 3684#7576: signal process started
+2019/09/11 14:22:24 [notice] 1648#9336: signal process started
+2019/09/11 14:27:13 [notice] 4844#7388: signal process started
+2019/09/11 14:34:37 [notice] 7848#1444: signal process started
+2019/09/11 14:41:58 [notice] 1632#4328: signal process started
+2019/09/11 14:45:57 [notice] 5488#5400: signal process started
+2019/09/11 14:58:03 [notice] 9792#4228: signal process started
+2019/09/11 15:12:27 [notice] 4696#1232: signal process started
+2019/09/11 15:14:05 [notice] 5320#6804: signal process started
+2019/09/11 15:17:41 [notice] 3220#10068: signal process started
+2019/09/11 15:21:16 [notice] 8428#10128: signal process started
+2019/09/11 15:26:00 [notice] 5968#8800: signal process started
+2019/09/11 15:28:27 [notice] 6172#9564: signal process started
+2019/09/11 15:30:58 [error] 2380#9500: *146 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /maps/gts/tms/v1/hqœ/tile/11/54/7 HTTP/1.1", upstream: "http://127.0.0.1:48108/maps/gts/tms/v1/hqœ/tile/11/54/7", host: "127.0.0.1"
+2019/09/11 15:35:12 [notice] 8072#9028: signal process started
+2019/09/11 15:39:19 [notice] 9920#8100: signal process started
+2019/09/11 15:43:16 [notice] 9352#9280: signal process started
+2019/09/11 16:04:02 [notice] 4988#908: signal process started
+2019/09/11 16:10:17 [notice] 4056#7844: signal process started
+2019/09/11 16:17:21 [notice] 4652#9544: signal process started
+2019/09/11 16:46:59 [notice] 8136#8140: signal process started
+2019/09/11 17:53:08 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:14 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:20 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:26 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:33 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:39 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:45 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:51 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:53:57 [error] 5688#5172: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/11 17:54:12 [notice] 6408#7356: signal process started
+2019/09/11 18:06:30 [notice] 7408#7928: signal process started
+2019/09/11 18:55:33 [notice] 3488#5552: signal process started
+2019/09/12 09:27:57 [notice] 824#5268: signal process started
+2019/09/16 09:24:57 [notice] 9024#4348: signal process started
+2019/09/16 09:26:29 [notice] 4524#4504: signal process started
+2019/09/16 09:29:10 [notice] 7680#7840: signal process started
+2019/09/16 09:35:12 [notice] 7228#2616: signal process started
+2019/09/16 09:37:55 [notice] 7472#8240: signal process started
+2019/09/16 09:42:48 [notice] 8580#7544: signal process started
+2019/09/16 09:46:53 [notice] 6852#7032: signal process started
+2019/09/16 10:11:31 [notice] 6184#5976: signal process started
+2019/09/16 11:11:16 [error] 4716#5940: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/09/16 11:11:16 [notice] 7692#8536: signal process started
+2019/10/09 14:28:40 [notice] 7224#7304: signal process started
+2019/10/09 15:04:56 [notice] 9692#9732: signal process started
+2019/10/09 15:14:00 [notice] 8768#8620: signal process started
+2019/10/09 16:07:46 [notice] 5796#10200: signal process started
+2019/10/09 16:21:25 [notice] 9556#9184: signal process started
+2019/11/01 10:56:48 [notice] 5904#4020: signal process started
+2019/11/04 17:10:36 [notice] 3396#6632: signal process started
+2019/12/11 10:58:21 [error] 6424#9972: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2019/12/11 10:58:23 [notice] 4132#7780: signal process started
+2019/12/11 11:01:20 [notice] 10856#10860: signal process started
+2019/12/11 11:02:38 [notice] 10556#10552: signal process started
+2020/02/24 15:36:53 [notice] 9024#7384: signal process started
+2020/02/24 15:48:54 [notice] 9144#7816: signal process started
+2020/05/15 10:40:53 [notice] 7340#200: signal process started
+2020/05/18 10:14:54 [error] 7112#5616: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /gmx/v1/ping HTTP/1.1", upstream: "http://127.0.0.1:48108/gmx/v1/ping", host: "127.0.0.1"
+2020/05/18 10:14:54 [notice] 8180#5224: signal process started
+2020/05/19 13:59:54 [notice] 9796#9800: signal process started
+2020/05/19 14:11:50 [notice] 10036#10040: signal process started
+2020/06/15 18:05:51 [emerg] 4448#2264: invalid parameter "127.0.0.1" in D:\GTCloud-2.0\mapserver\xapps\nginx/conf/nginx.conf:65
+2020/06/15 18:08:31 [notice] 4552#2424: signal process started
+2020/06/15 18:09:43 [notice] 6836#1568: signal process started
+2020/06/15 18:10:03 [emerg] 5508#6496: no servers are inside upstream in D:\GTCloud-2.0\mapserver\xapps\nginx/conf/nginx.conf:62
+2020/06/15 18:10:44 [notice] 6996#7544: signal process started
+2020/06/15 18:11:59 [emerg] 6812#8044: unknown directive "!listen" in D:\GTCloud-2.0\mapserver\xapps\nginx/conf/nginx.conf:70
+2020/06/15 18:12:18 [notice] 3204#4660: signal process started
+2020/06/15 18:13:00 [emerg] 4732#7968: cannot load certificate "D:\GTCloud-2.0\mapserver\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\GTCloud-2.0\mapserver\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/15 18:13:12 [notice] 1800#3460: signal process started
+2020/06/15 18:32:29 [emerg] 2120#220: cannot load certificate "D:\GTCloud-2.0\mapserver\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\GTCloud-2.0\mapserver\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/15 18:33:14 [notice] 1080#1228: signal process started
+2020/06/15 18:50:34 [notice] 6896#4884: signal process started
+2020/06/15 18:58:15 [notice] 5968#3156: signal process started
+2020/06/16 09:26:36 [notice] 1940#2784: signal process started
+2020/06/16 09:35:30 [notice] 1348#7584: signal process started
+2020/06/16 09:38:06 [notice] 1832#1080: signal process started
+2020/06/16 09:40:21 [notice] 8112#6400: signal process started
+2020/06/16 09:43:43 [notice] 5408#2368: signal process started
+2020/06/16 09:51:30 [notice] 4384#8084: signal process started
+2020/06/16 09:52:22 [notice] 5596#6832: signal process started
+2020/06/16 10:48:36 [notice] 6180#7560: signal process started
+2020/06/16 17:40:35 [notice] 4876#6928: signal process started
+2020/06/17 09:25:46 [emerg] 3392#7648: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:48 [emerg] 1356#6076: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:49 [emerg] 1988#4664: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:50 [emerg] 3848#8036: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:50 [emerg] 6004#7460: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:51 [emerg] 1352#4660: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:52 [emerg] 3784#3380: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:52 [emerg] 4656#4316: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:53 [emerg] 3100#7640: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:54 [emerg] 5976#7216: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:54 [emerg] 3240#6096: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:25:55 [emerg] 7652#8056: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/17 09:27:14 [notice] 7564#6068: signal process started
+2020/06/18 11:02:01 [emerg] 6900#6716: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:04 [emerg] 5912#4224: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:05 [emerg] 6532#5236: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:05 [emerg] 6068#1364: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:06 [emerg] 5672#4668: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:07 [emerg] 712#4804: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:07 [emerg] 5720#3908: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:08 [emerg] 2328#5680: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/06/18 11:02:09 [emerg] 4124#5340: cannot load certificate "D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:\Nginx\xapps\nginx/conf/ssl-cert/server.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)

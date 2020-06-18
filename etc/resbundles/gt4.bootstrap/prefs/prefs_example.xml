@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<prefs>
+    <!-- type="bool" doc="该bool型配置参数的说明" -->
+    <param name="example.bool" value="false"/>
+
+    <!-- type="string" doc="该string型配置参数的说明" -->
+    <param name="example.string" value="string_val"/>
+
+    <!-- type="stringlist" doc="该stringlist型配置参数的说明" -->
+    <param name="example.stringlist"  value="str1;str2;str3"/>
+
+    <!-- base64编码的二进制值 type="binary" doc="该binary型配置参数的说明" -->
+    <param name="example.binary" value="Axz1AAA" />
+
+    <!-- type="int32" doc="该int32型配置参数的说明" -->
+    <param name="example.int32" value="12345" />
+
+    <!-- type="int64" doc="该int64型配置参数的说明" -->
+    <param name="example.int64" value="12345" />
+
+    <!-- type="double" doc="该double型配置参数的说明" -->
+    <param name="example.double" value="3.1416926" />
+
+    <!-- type="int64" doc="该BYTE_SIZE型配置参数的说明" -->
+    <!-- K: 1024; M: 1024K; G: 1024M; T: 1024G -->
+    <param name="example.BYTE_SIZE" value="12M" />
+
+    <!-- type="int64" doc="该TIME_SPAN型配置参数的说明" -->
+    <!-- D: 以天为单位; H: 以小时为单位; M: 以分钟为单位; S: 以秒为单位; ms: 以毫秒为单位 -->
+    <param name="example.TIME_SPAN" value="7D" />
+
+</prefs>
